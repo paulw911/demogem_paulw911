@@ -21,7 +21,7 @@ Or install it yourself as:
 ## Usage
 
 ```
-puts "tests here"
+DemogemPaulw911::Calculation.new(1,2).calculation # 3
 ```
 
 ## Development

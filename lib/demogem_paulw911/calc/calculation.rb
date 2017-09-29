@@ -8,7 +8,7 @@ module DemogemPaulw911
   end
 
   def calculation
-   value1 + value2
+   @value1 + @value2
   end
 
  end

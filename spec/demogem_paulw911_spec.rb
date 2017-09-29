@@ -5,7 +5,8 @@ RSpec.describe DemogemPaulw911 do
     expect(DemogemPaulw911::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "Calculation returns the sum of value1 and value2" do
+    expect(DemogemPaulw911::Calculation.new(1,2).calculation).to eq(3)
   end
+
 end
